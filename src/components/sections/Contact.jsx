@@ -48,7 +48,7 @@ const Contact = () => {
                             <div className="rounded-lg border border-white/10 bg-white/5 p-3">
                                 <Mail className="w-5 h-5 text-primary" />
                             </div>
-                            <div>
+                            <div className="text-left">
                                 <h4 className="mb-1 font-bold text-white">이메일</h4>
                                 <p className="text-text-secondary">contact@lokana.ai</p>
                             </div>
@@ -57,16 +57,16 @@ const Contact = () => {
                             <div className="rounded-lg border border-white/10 bg-white/5 p-3">
                                 <MapPin className="w-5 h-5 text-primary" />
                             </div>
-                            <div>
+                            <div className="text-left">
                                 <h4 className="mb-1 font-bold text-white">오피스</h4>
-                                <p className="text-text-secondary">충남 천안시 1인 창조기업 지원센터</p>
+                                <p className="text-text-secondary">충남 천안시 테크노파크</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/[0.03] p-4 transition-all hover:-translate-y-0.5 hover:border-primary/30">
                             <div className="rounded-lg border border-white/10 bg-white/5 p-3">
                                 <Phone className="w-5 h-5 text-primary" />
                             </div>
-                            <div>
+                            <div className="text-left">
                                 <h4 className="mb-1 font-bold text-white">연락처</h4>
                                 <p className="text-text-secondary">010-XXXX-XXXX (Business)</p>
                             </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="glass-panel rounded-2xl border-white/10 p-8 shadow-[0_24px_50px_rgba(0,0,0,0.4)]">
+                <div className="glass-panel text-left rounded-2xl border-white/10 p-8 shadow-[0_24px_50px_rgba(0,0,0,0.4)]">
                     <form onSubmit={handleSubmit} className="space-y-4">
                         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                             <div>

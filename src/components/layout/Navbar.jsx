@@ -31,11 +31,8 @@ const Navbar = () => {
                     }`}
             >
                 <Link to="hero" smooth={true} duration={500} className="group flex cursor-pointer items-center gap-2.5">
-                    <div className="relative h-9 w-9 md:h-10 md:w-10">
-                        <div className="absolute inset-0 rounded-xl bg-gradient-to-tr from-primary via-accent-warm to-accent-cool shadow-[0_0_20px_rgba(0,212,170,0.35)] transition-transform duration-500 group-hover:rotate-12"></div>
-                        <div className="clip-prism absolute inset-1 bg-brand-black/70"></div>
-                    </div>
-                    <span className="font-mono text-lg font-bold tracking-tight text-white md:text-xl">LOKANA</span>
+                    <img src="/src/assets/lokana_symbol.svg" alt="LOKANA Symbol" className="h-9 w-9 md:h-10 md:w-10 transition-transform duration-500 group-hover:rotate-12" />
+                    <img src="/src/assets/lokana_text_only.svg" alt="LOKANA" className="h-5 md:h-6 w-auto" />
                 </Link>
 
                 <div className="hidden items-center gap-7 md:flex">

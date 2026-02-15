@@ -32,11 +32,9 @@ const DesktopLayout = () => {
                     <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-6 md:flex-row md:items-center">
                         <div>
                             <div className="flex items-center gap-3">
-                                <div className="relative h-8 w-8">
-                                    <div className="absolute inset-0 bg-gradient-to-tr from-primary via-accent-warm to-accent-cool clip-prism"></div>
-                                </div>
+                                <img src="/src/assets/lokana_symbol.svg" alt="LOKANA" className="h-8 w-8" />
                                 <div>
-                                    <p className="font-mono text-lg font-bold tracking-tight text-white">LOKANA</p>
+                                    <img src="/src/assets/lokana_text_only.svg" alt="LOKANA" className="h-5 w-auto mb-1" />
                                     <p className="text-xs text-text-muted">보안이 전제인 산업을 위한 온프레미스 AI</p>
                                 </div>
                             </div>
